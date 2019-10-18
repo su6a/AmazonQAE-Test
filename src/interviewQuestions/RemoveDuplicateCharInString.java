@@ -41,7 +41,7 @@ public class RemoveDuplicateCharInString {
 		for (Character character : charSet) {
 		    sb.append(character);
 		}
-		System.out.println(sb.toString());
+		System.out.println(sb.toString()/*+charSet.toString()*/);
 	}
 	
     public static String removeDuplicates(String myString) {
